@@ -21,6 +21,15 @@ export const Container = styled.header`
             font-weight: 900;
             cursor: pointer;
         }
+
+        span:nth-of-type(2) {
+            position: relative;
+            left: -94px;
+
+            @media (max-width: ${media.desktop}) {
+                left: 0px;
+            }
+        }
         
         @media (max-width: ${media.desktop}) {
             flex-direction: column;

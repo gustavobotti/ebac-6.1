@@ -9,13 +9,13 @@ export const ShopHeader = () => {
   return (
       <Container style={{ backgroundImage: `url(${texture})` }}>
         <div className="container">
-          <span>Restaurantes</span>
+          <span> Restaurantes </span>
           <Link to="/">
             <Logo src={logo} alt="EFood Logo" />
           </Link>
           <span>
-          {quantity} produto(s) no carrinho
-        </span>
+            {quantity} produto(s) no carrinho
+          </span>
         </div>
       </Container>
   );
